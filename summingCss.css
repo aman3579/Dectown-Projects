@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+div.ball {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 0px 5px;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+div.ball:nth-child(2) {
+    background: orange;
+    animation-delay: 0.2s;
+}
+
+div.ball:nth-child(3) {
+    background: crimson;
+    animation-delay: 0.4s;
+}
+
+div.ball:nth-child(4) {
+    background: blueviolet;
+    animation-delay: 0.6s;
+}
+
+@keyframes loading {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

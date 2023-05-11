@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+div.container{
+    width:100vw;
+    height:100vh;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+}
+
+div.left{
+height:100%;
+max-width:300px;
+background-color: rgb(96, 59, 130);
+flex-grow:0;
+}
+div.right{
+    height:100%;
+    background-color: white;
+    flex-grow:1;
+}
+
+div.right header{
+    background-color: white;
+    display:flex;
+}
+header h1{
+    color:white;
+
+}

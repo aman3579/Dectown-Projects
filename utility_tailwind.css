@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-red{
+    background-color:red;}
+
+.text-md{
+    fontsize:16px;
+}
+.bg-green{
+    background-color: green;
+}
+.text-lg{
+    font-size:28px;
+}
+
+.text-xl{
+    font-size: 24px;
+}
+
+.text-2xl{
+    font-size:32px;
+}
+
+.flex{
+display:flex;
+}
+
+.flex-row{
+    flex-direction:row;
+}
+
+.flex-col{
+flex-direction: column;
+}

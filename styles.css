@@ -1,0 +1,23 @@
+div.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image:  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,91,191,0.9428969359331476) 35%, rgba(0,212,255,1) 100%); ;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+
+div.login-container{
+    width:432px;
+    height:535px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+div.login-container header tag{
+width:48px;
+height:48px;
+
+}

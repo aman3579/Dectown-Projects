@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="media_adjust.css" />
+  <style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+  }
+
+  h1{
+   font-size:50px; 
+  }
+
+  @media(min-width: 760px){
+     body{
+        background-color: blueviolet;
+     }
+     h1{
+        font-size: 20px;
+     }
+  }
+
+  @media(max-width: 500px){
+     body{
+        background-color: rgb(151, 236, 87);
+     }
+     h1{
+        font-size: 5px;
+     }
+  }
+  </style>
+  </head>
+  <body>
+        <h1>I am a heading</h1>
+  </body>
+</html>
