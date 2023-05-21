@@ -17,7 +17,8 @@
     "vite": "^4.3.7"
   },
   "scripts": {
-    "start": "vite"
+    "start": "vite
+    "
   },
   "author": "",
   "license": "ISC"
